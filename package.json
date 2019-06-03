@@ -1,0 +1,90 @@
+{
+  "name": "fastify-rbac",
+  "version": "1.0.0",
+  "description": "RBAC plugin for Fastify",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "config": {
+    "releaseBranch": "master"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "dist",
+    "test": "test"
+  },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.ts"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "standard-version": {
+    "scripts": {
+      "prerelease": "npm run test",
+      "postbump": "echo Version: v$npm_package_version",
+      "postchangelog": "replace \"https://github.com/SkeLLLa/\" \"https://gitlab.com/m03geek/\" CHANGELOG.md",
+      "posttag": "git push --follow-tags origin $npm_package_config_releaseBranch"
+    }
+  },
+  "scripts": {
+    "lint": "eslint . && tslint -p ./ && tslint -p ./test",
+    "lint:fix": "eslint . --fix && tslint -p ./ --fix && tslint -p ./test --fix",
+    "test": "npm audit || true && npm run lint && npm run unit",
+    "unit": "jest",
+    "postunit": "codecov",
+    "build": "tsc",
+    "prerelease": "npm run typedoc",
+    "release": "git add -A && standard-version -A",
+    "typedoc": "rm -rf ./docs/* && typedoc --excludeExternals --name \"$npm_package_name\" --readme none --mode file --includeDeclarations --theme markdown --out ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkeLLLa/fastify-rbac.git"
+  },
+  "keywords": [
+    "fastify",
+    "rbac",
+    "acl",
+    "access",
+    "role",
+    "authorization",
+    "privacy",
+    "security",
+    "permission"
+  ],
+  "author": "m03geek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/m03geek/fastify-rbac/issues"
+  },
+  "homepage": "https://gitlab.com/m03geek/fastify-rbac#README",
+  "dependencies": {
+    "fast-rbac": "^1.1.5",
+    "fastify-plugin": "^1.5.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "codecov": "^3.5.0",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0",
+    "fastify": "^2.2.0",
+    "husky": "^2.3.0",
+    "jest": "^24.7.1",
+    "marked": "^0.6.2",
+    "replace": "^1.1.0",
+    "standard-version": "^6.0.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typedoc": "^0.14.0",
+    "typedoc-plugin-markdown": "^1.2.0",
+    "typescript": "^3.4.3"
+  }
+}
