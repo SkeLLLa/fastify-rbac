@@ -34,7 +34,7 @@
     "lint:fix": "eslint . --fix && tslint -p ./ --fix && tslint -p ./test --fix",
     "test": "npm audit || true && npm run lint && npm run unit",
     "unit": "jest",
-    "postunit": "codecov",
+    "_postunit": "codecov",
     "build": "tsc",
     "prerelease": "npm run typedoc",
     "release": "git add -A && standard-version -A",
