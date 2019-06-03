@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://gitlab.com/m03geek/fastify-rbac/compare/v1.0.0...v1.0.1) (2019-06-03)
+
+
+### Tests
+
+* add tests ([33497c1](https://gitlab.com/m03geek/fastify-rbac/commit/33497c1))
+
+
+
 ## 1.0.0 (2019-06-03)
 
 
