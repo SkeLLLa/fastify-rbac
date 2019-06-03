@@ -62,7 +62,7 @@
   },
   "homepage": "https://gitlab.com/m03geek/fastify-rbac#README",
   "dependencies": {
-    "fast-rbac": "^1.1.5",
+    "fast-rbac": "^1.1.6",
     "fastify-plugin": "^1.5.0"
   },
   "devDependencies": {
