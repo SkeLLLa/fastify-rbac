@@ -1,15 +1,16 @@
 # fastify-rbac
 
-<!-- <div align="center">
-  <img src="https://gitlab.com/m03geek/fastify-rbac/raw/master/logo.png" alt="fastify-rbac logo"/>
-</div> -->
+<div align="center">
+  <img src="https://gitlab.com/m03geek/fast-rbac/raw/master/rbac.logo.svg" width="300" height="auto"/>
 
 [![NPM Version](https://img.shields.io/npm/v/fastify-rbac.svg)](https://www.npmjs.com/package/fastify-rbac)
 [![Downloads Count](https://img.shields.io/npm/dm/fastify-rbac.svg)](https://www.npmjs.com/package/fastify-rbac)
 [![Vunerabilities Count](https://snyk.io/test/npm/fastify-rbac/badge.svg)](https://www.npmjs.com/package/fastify-rbac)
 [![Build Status](https://gitlab.com/m03geek/fastify-rbac/badges/master/pipeline.svg)](https://gitlab.com/m03geek/fastify-rbac/commits/master)
 [![License](https://img.shields.io/npm/l/fastify-rbac.svg)](https://gitlab.com/m03geek/fastify-rbac/blob/master/LICENSE)
+[![Codecov](https://img.shields.io/codecov/c/gl/m03geek/fast-rbac.svg)](https://codecov.io/gl/m03geek/fast-rbac)
 <!-- [![Coverage Status](https://gitlab.com/m03geek/fastify-rbac/badges/master/coverage.svg)](https://gitlab.com/m03geek/fastify-rbac/commits/master) -->
+</div>
 
 RBAC (Role-based access control) plugin for Fastify.
 
