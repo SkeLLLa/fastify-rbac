@@ -5,7 +5,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/fastify-rbac.svg)](https://www.npmjs.com/package/fastify-rbac)
 [![Downloads Count](https://img.shields.io/npm/dm/fastify-rbac.svg)](https://www.npmjs.com/package/fastify-rbac)
-[![Vunerabilities Count](https://snyk.io/test/npm/fastify-rbac/badge.svg)](https://www.npmjs.com/package/fastify-rbac)
+[![Vunerabilities Count](https://snyk.io/test/npm/fastify-rbac/badge.svg)](https://snyk.io/test/npm/fastify-rbac)
 [![Build Status](https://gitlab.com/m03geek/fastify-rbac/badges/master/pipeline.svg)](https://gitlab.com/m03geek/fastify-rbac/commits/master)
 [![License](https://img.shields.io/npm/l/fastify-rbac.svg)](https://gitlab.com/m03geek/fastify-rbac/blob/master/LICENSE)
 [![Codecov](https://img.shields.io/codecov/c/gl/m03geek/fast-rbac.svg)](https://codecov.io/gl/m03geek/fast-rbac)
