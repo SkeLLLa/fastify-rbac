@@ -12,7 +12,7 @@ declare module 'fastify' {
     /**
      * RBAC interface
      */
-    rbac: typeof RBAC;
+    rbac: RBAC;
   }
 
   interface FastifyRequest<HttpRequest, Query, Params, Headers, Body> {
