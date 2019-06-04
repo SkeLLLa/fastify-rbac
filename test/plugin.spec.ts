@@ -1,6 +1,7 @@
 import 'jest';
 import fastifyPlugin = require('../src/index');
 import fastify from 'fastify';
+import RBAC from 'fast-rbac';
 const {name} = require('../package.json');
 
 describe(name, () => {
@@ -11,5 +12,7 @@ describe(name, () => {
     });
     await app.ready();
     expect(app.rbac).toBeDefined();
+    expect(app.rbac).toBeInstanceOf(RBAC);
+    expect(app.rbac.can).toBeDefined();
   });
 });
