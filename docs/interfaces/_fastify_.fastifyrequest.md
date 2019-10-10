@@ -1,34 +1,33 @@
-[fastify-rbac](../README.md) > ["fastify"](../modules/_fastify_.md) > [FastifyRequest](../interfaces/_fastify_.fastifyrequest.md)
+[fastify-rbac](../README.md) › ["fastify"](../modules/_fastify_.md) › [FastifyRequest](_fastify_.fastifyrequest.md)
 
-# Interface: FastifyRequest
+# Interface: FastifyRequest <**HttpRequest, Query, Params, Headers, Body**>
 
 ## Type parameters
-#### HttpRequest 
-#### Query 
-#### Params 
-#### Headers 
-#### Body 
+
+▪ **HttpRequest**
+
+▪ **Query**
+
+▪ **Params**
+
+▪ **Headers**
+
+▪ **Body**
+
 ## Hierarchy
 
-**FastifyRequest**
+* **FastifyRequest**
 
 ## Index
 
 ### Properties
 
-* [session](_fastify_.fastifyrequest.md#session)
-
----
+* [session](_fastify_.fastifyrequest.md#optional-session)
 
 ## Properties
 
-<a id="session"></a>
+### `Optional` session
 
-### `<Optional>` session
+• **session**? : *undefined | object*
 
-**● session**: *`undefined` \| `object`*
-
-*Defined in index.ts:19*
-
-___
-
+Defined in index.ts:19

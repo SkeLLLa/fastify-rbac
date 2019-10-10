@@ -1,5 +1,6 @@
+[fastify-rbac](README.md)
 
-#  fastify-rbac
+# fastify-rbac
 
 ## Index
 
@@ -9,30 +10,23 @@
 
 ### Functions
 
-* [fastifyRBACPlugin](#fastifyrbacplugin)
-
----
+* [fastifyRBACPlugin](README.md#const-fastifyrbacplugin)
 
 ## Functions
 
-<a id="fastifyrbacplugin"></a>
+### `Const` fastifyRBACPlugin
 
-### `<Const>` fastifyRBACPlugin
+▸ **fastifyRBACPlugin**(`fastify`: FastifyInstance, `options?`: RBAC.Options): *Promise‹void›*
 
-▸ **fastifyRBACPlugin**(fastify: *`FastifyInstance`*, options?: *`RBAC.Options`*): `Promise`<`void`>
-
-*Defined in index.ts:31*
+Defined in index.ts:31
 
 Fastify RBAC plugin
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| fastify | `FastifyInstance` |
-| `Optional` options | `RBAC.Options` |
+Name | Type |
+------ | ------ |
+`fastify` | FastifyInstance |
+`options?` | RBAC.Options |
 
-**Returns:** `Promise`<`void`>
-
-___
-
+**Returns:** *Promise‹void›*

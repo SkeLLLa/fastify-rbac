@@ -1,14 +1,18 @@
-[fastify-rbac](../README.md) > ["fastify"](../modules/_fastify_.md) > [FastifyInstance](../interfaces/_fastify_.fastifyinstance.md)
+[fastify-rbac](../README.md) › ["fastify"](../modules/_fastify_.md) › [FastifyInstance](_fastify_.fastifyinstance.md)
 
-# Interface: FastifyInstance
+# Interface: FastifyInstance <**HttpServer, HttpRequest, HttpResponse**>
 
 ## Type parameters
-#### HttpServer 
-#### HttpRequest 
-#### HttpResponse 
+
+▪ **HttpServer**
+
+▪ **HttpRequest**
+
+▪ **HttpResponse**
+
 ## Hierarchy
 
-**FastifyInstance**
+* **FastifyInstance**
 
 ## Index
 
@@ -16,19 +20,12 @@
 
 * [rbac](_fastify_.fastifyinstance.md#rbac)
 
----
-
 ## Properties
-
-<a id="rbac"></a>
 
 ###  rbac
 
-**● rbac**: *`RBAC`*
+• **rbac**: *RBAC*
 
-*Defined in index.ts:15*
+Defined in index.ts:15
 
 RBAC interface
-
-___
-
