@@ -75,7 +75,7 @@
     "eslint-config-google": "^0.14.0",
     "fastify": "^2.9.0",
     "husky": "^3.0.0",
-    "jest": "^24.9.0",
+    "jest": "^29.6.1",
     "replace": "^1.1.1",
     "standard-version": "^7.0.0",
     "ts-jest": "^24.1.0",
